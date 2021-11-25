@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.background-card {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+.toss-coin-card {
+  background-color: white;
+  width: 40%;
+  border-radius: 15px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+p {
+  margin-left: 25px;
+}
+img {
+  width: 250px;
+}
+
+button {
+  background-color: #f9d423;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  color: #a35200;
+}
+h1 {
+  font-size: 36px;
+}
